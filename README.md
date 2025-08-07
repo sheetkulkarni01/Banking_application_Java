@@ -14,21 +14,78 @@ A basic command-line banking system written in Java. This project supports accou
 
 ---
 
+## Running Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/sheetkulkarni01/Banking_application_Java.git
+   cd Banking_application_Java/src/main/java
+   ```
+
+2. **Compile**
+
+   ```bash
+   javac bank/*.java
+   ```
+
+3. **Run**
+
+   ```bash
+   java bank.Main
+   ```
+
+---
+
+## Sample run
+
+```plaintext
+
+1.Create new account 2.Open existing account 3.Check Balance 4.Display richest person in the bank 5.exit
+Enter your choice: 1
+Enter your name: Alice
+Enter your address: Wonderland
+Your account number is: 1
+Your account has been created
+```
+
+---
+
+## Requirements
+
+- Java 8 or above
+
+---
+
+## Learnings
+
+This project demonstrates the use of:
+- Classes and objects
+- Encapsulation
+- Java Collections (`HashMap`)
+- CLI user interaction
+
+---
+
 ## Project Structure
 
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── bank/
-│ │ ├── Account.java # Represents an account (name, balance, etc.)
-│ │ ├── Bank.java # Handles banking operations
-│ │ └── Final1.java # Main CLI entry point
-│ │
-│ └── test/
-│ └── java/
-│ └── bank/
-│ ├── Create.java # Dummy logic for test coverage
-│ └── Banking.java # JUnit test cases for Create.java
-│
-├── .gitignore
-└── README.md
+```plaintext
+                    
+├── src                                    
+|   └── main 
+|   |   └── java
+|   |       └── bank
+|   |           ├── Account.java # Represents an account (name, balance, etc.)
+|   |           ├── Bank.java # Handles banking operations
+|   |           └── Main.java # Main CLI entry point              
+|   └── test
+|        └── java 
+|            └── bank
+|                ├── Create.java
+|                └── Banking.java                                          
+├── .gitignore        
+└── README.md                       
+```
+
+---
+
